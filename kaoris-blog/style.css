@@ -1,0 +1,65 @@
+h1 {
+  font-family: 'Poppins';
+  font-size: 100pt;
+  text-transform: lowercase;
+
+  * / color: rgb(249, 228, 183);
+}
+
+.menu {
+  margin: auto;
+  width: 50%;
+}
+
+.navs {
+  padding-top: 0%;
+  padding-left: 5%;
+}
+
+.nav {
+  font-family: 'Poppins';
+  font-size: 20pt;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+a {
+  font-family: 'Poppins';
+  text-decoration: none;
+  color: black;
+  background-size: 20px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: burlywood;
+  transition: 0.3s;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+/*
+** Sidebar
+*/
+
+.sidenav {
+  width: 0;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 8px 0;
+  padding-top: 50px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
