@@ -1,4 +1,4 @@
-* Global Variables */
+/* Global Variables */
 var speed = 100;
 
 /* Type out text */
