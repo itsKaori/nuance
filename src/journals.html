@@ -28,13 +28,11 @@
 
     <div class="menu">
 
-      <h1 id="header1"></h1>
+        <h1 id="header1"></h1>
 
-      <div class="posts">
-
-      <div class="navs">
+        <div class="posts">
         
-      </div>
+        </div>
 
     </div>
 
@@ -48,33 +46,31 @@
       window.onload = start;
     </script>
 
-<script>
-var navOpen = false;
+    <script>
+    var navOpen = false;
 
-function toggleNav() {
-  if(navOpen){
-    closeNav();
-  }
-  else{
-    openNav();
-  }
-}
+    function toggleNav() {
+    if(navOpen){
+        closeNav();
+    }
+    else{
+        openNav();
+    }
+    }
 
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  navOpen = true;
-}
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    navOpen = true;
+    }
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  navOpen = false;
-}
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    navOpen = false;
+    }
 
-var navButton = document.getElementById('navToggleButton');
-navButton.addEventListener('click', toggleNav);
-</script>
-
-
+    var navButton = document.getElementById('navToggleButton');
+    navButton.addEventListener('click', toggleNav);
+    </script>
 </footer>
 
 </html>

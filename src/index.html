@@ -21,10 +21,10 @@
 
       <div id="mySidenav" class="sidenav">
         <a href="#">home</a>
-        <a href="/journals.html">journals</a>
-        <a href="/readings.html">readings</a>
-        <a href="/links.html">links</a>
-        <a href="/about.html">about me</a>
+        <a href="/nuance/journals.html">journals</a>
+        <a href="/nuance/readings.html">readings</a>
+        <a href="/nuance/links.html">links</a>
+        <a href="/nuance/about.html">about me</a>
       </div>
     </div>
 
@@ -33,13 +33,13 @@
       <h1 id="header1">nuance</h1>
 
       <div class="navs">
-        <p class="nav"><a id="nav1" href="/journals.html"></a></p>
+        <p class="nav"><a id="nav1" href="/nuance/journals.html"></a></p>
       
         <p class="nav"><a id="nav2" href="#"></a></p>
 
         <p class="nav"><a id="nav3" href="#"></a></p>
 
-        <p class="nav"><a id="nav4" href="/about.html"></a></p>
+        <p class="nav"><a id="nav4" href="/nuance/about.html"></a></p>
       </div>
 
     </div>
@@ -57,33 +57,6 @@
       }
       window.onload = start;
     </script>
-
-<script>
-var navOpen = false;
-
-function toggleNav() {
-  if(navOpen){
-    closeNav();
-  }
-  else{
-    openNav();
-  }
-}
-
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  navOpen = true;
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  navOpen = false;
-}
-
-var navButton = document.getElementById('navToggleButton');
-navButton.addEventListener('click', toggleNav);
-</script>
-
 
 </footer>
 
