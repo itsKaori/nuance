@@ -3,7 +3,7 @@ h1 {
   font-size: 100pt;
   text-transform: lowercase;
 
-  * / color: rgb(249, 228, 183);
+  /*color: rgb(249, 228, 183);*/
 }
 
 .menu {
@@ -22,6 +22,13 @@ h1 {
   font-weight: lighter;
   text-transform: uppercase;
   letter-spacing: 0.5em;
+}
+
+.posts{
+  font-family: 'Poppins';
+  font-size: 20pt;
+
+  
 }
 
 a {
