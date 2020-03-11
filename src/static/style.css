@@ -53,6 +53,9 @@ body {
   display: inline-block;
   cursor: pointer;
 }
+#navToggle {
+  float: left;
+}
 .top, .middle, .bottom {
   width: 35px;
   height: 5px;
