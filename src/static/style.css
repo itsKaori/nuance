@@ -49,7 +49,10 @@ body {
 /*
 ** Sidebar
 */
-
+#navToggleButton {
+  display: inline-block;
+  cursor: pointer;
+}
 .top, .middle, .bottom {
   width: 35px;
   height: 5px;
