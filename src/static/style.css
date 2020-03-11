@@ -27,8 +27,6 @@ h1 {
 .posts{
   font-family: 'Poppins';
   font-size: 20pt;
-
-  
 }
 
 a {
@@ -52,7 +50,7 @@ body {
 ** Sidebar
 */
 
-.sidenav {
+.sidenav1 {
   cursor: pointer;
   float: right;
 }
