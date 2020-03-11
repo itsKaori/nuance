@@ -55,7 +55,7 @@ body {
 .sidenav {
   float: right;
   cursor: pointer;
-  width: .5in;
+  font-size: 3.6rem;
 }
 
 .sidenav-top {
