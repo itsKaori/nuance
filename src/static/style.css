@@ -54,7 +54,7 @@ body {
   cursor: pointer;
   float: right;
 }
-.sidenav-top, .sidenav-middle, .sidenav-bottom {
+.top, .middle, .bottom {
   width: 35px;
   height: 5px;
   margin: 6px 0;
