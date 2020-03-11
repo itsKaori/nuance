@@ -51,31 +51,14 @@ body {
 /*
 ** Sidebar
 */
-.col1 {
-  width: 100%;
-}
+
 .sidenav {
+  cursor: pointer;
+  float: right;
+}
+.sidenav-top, .sidenav-middle, .sidenav-bottom {
   width: 35px;
   height: 5px;
   margin: 6px 0;
-  float: right;
-  cursor: pointer;
   background-color: black;
-}
-/*.sidenav-top {
-  width: 100%;
-  height: 0.24em;
-  background-color: white;
-}
-
-.sidenav-middle {
-  width: 100%;
-  height: 0.24em;
-  background-color: white;
-}
-
-.sidenav-bottom {
-  width: 100%;
-  height: 0.24em;
-  background-color: white;
 }
