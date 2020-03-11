@@ -13,24 +13,44 @@
     <link rel="stylesheet" type="text/css" href="/nuance/static/style.css">
     <script src="/nuance/static/animations.js"></script>
     <style>
-      .top, .middle, .bottom{
+        
+        #navToggleButton {
+        display: inline-block;
+        width: 100%;
+        cursor: pointer;
+      }
+
+      .top, .middle, .bottom {
         width: 35px;
         height: 5px;
         background-color: black;
         margin: 7px 0;
       }
-      
-      #navToggleButton {
-        display: inline-block;
-        width: 100%;
-        cursor: pointer;
+
+      .sidenav {
+        width: 0;
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        padding: 8px 0;
+        padding-top: 50px;
+        transition: 0.5s;
+      }
+
+      .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        display: block;
       }
       </style>
 </head>
 
 <body>
 
-    <div style="position: fixed; top: 0; left: 0; padding-left: 15px; padding-top: 15px;">
+    <div style="position: fixed; top: 0; left: 0; padding-left: 15px;">
         <div id="navToggleButton" style="cursor: pointer;">
           <div class="top"></div>
           <div class="middle"></div>
