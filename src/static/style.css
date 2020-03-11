@@ -61,6 +61,17 @@ body {
 .sidenav-top {
   width: 100%;
   height: .5in;
-  text-decoration: none;
+  background-color: white;
+}
+
+.sidenav-middle {
+  width: 100%;
+  height: .5in;
+  background-color: white;
+}
+
+.sidenav-bottom {
+  width: 100%;
+  height: .5in;
   background-color: white;
 }
