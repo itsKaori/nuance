@@ -55,11 +55,14 @@ body {
   width: 100%;
 }
 .sidenav {
+  width: 35px;
+  height: 5px;
+  margin: 6px 0;
   float: right;
   cursor: pointer;
-  font-size: 3.6rem;
+  background-color: black;
 }
-.sidenav-top {
+/*.sidenav-top {
   width: 100%;
   height: 0.24em;
   background-color: white;
