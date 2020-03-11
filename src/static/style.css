@@ -50,10 +50,6 @@ body {
 ** Sidebar
 */
 
-.sidenav {
-  cursor: pointer;
-  float: right;
-}
 .top, .middle, .bottom {
   width: 35px;
   height: 5px;
