@@ -68,3 +68,13 @@ body {
   font-size: 25px;
   display: block;
 }
+
+.tag-filter {
+  display: inline-block;
+  padding: 4px;
+}
+
+.tag-filter:hover {
+  color: burlywood;
+  transition: 0.3s;
+}
