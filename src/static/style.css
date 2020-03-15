@@ -1,9 +1,10 @@
+
+/* General Styling */
+
 h1 {
   font-family: 'Poppins';
   font-size: 100pt;
   text-transform: lowercase;
-
-  /*color: rgb(249, 228, 183);*/
 }
 
 h2 {
@@ -57,9 +58,7 @@ body {
   background-color: blanchedalmond;
 }
 
-/*
-** Sidemenu
-*/
+/* Menu */
 
 #navToggleButton {
   display: inline-block;
@@ -93,9 +92,7 @@ body {
   display: block;
 }
 
-/*
-** filters
-*/
+/* Filters */
 
 .tag-filter {
   font-family: 'Poppins';
@@ -113,29 +110,30 @@ body {
   color: burlywood;
   transition: 0.3s;
 }
- /* Journal Cards */
 
- .journal-deck {
-   box-sizing: border-box;
-   width: 70%;
-   max-width: 1500px;
-   margin-left: 115px;
-   margin-top: 50px;
- }
+/* Journal Cards */
 
- .journal-card {
-   float: left;
-   width: 33.3%;
-   padding-bottom: 20px;
-   min-height: 290px;
- }
+.journal-deck {
+  box-sizing: border-box;
+  width: 70%;
+  max-width: 1500px;
+  margin-left: 115px;
+  margin-top: 50px;
+}
 
- .inner-grid {
-   position:relative;
- }
+.journal-card {
+  float: left;
+  width: 33.3%;
+  padding-bottom: 20px;
+  min-height: 290px;
+}
 
- .line {
+.inner-grid {
+  position:relative;
+}
+
+.line {
   width: 3in;
   height: 2pt;
   background-color: black;
- }
+}
