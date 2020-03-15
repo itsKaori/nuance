@@ -11,61 +11,16 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:&display=swap">
     <link rel="stylesheet" type="text/css" href="/nuance/static/style.css">
-    <script src="/nuance/static/animations.js"></script>
-    <style>
-        
-        #navToggleButton {
-        display: inline-block;
-        width: 100%;
-        cursor: pointer;
-      }
-
-      .top, .middle, .bottom {
-        width: 35px;
-        height: 5px;
-        background-color: black;
-        margin: 7px 0;
-      }
-
-      .sidenav {
-        width: 0;
-        position: fixed;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        overflow-x: hidden;
-        padding: 8px 0;
-        padding-top: 50px;
-        transition: 0.5s;
-      }
-
-      .sidenav a {
-        padding: 6px 8px 6px 16px;
-        text-decoration: none;
-        font-size: 25px;
-        display: block;
-      }
-      </style>
 </head>
 
 <body>
+    <a class="home" href="/nuance/">
+      <div class="top"></div>
+      <div class="middle"></div>
+      <div class="bottom"></div>
+    </a>
 
-    <div style="position: fixed; top: 0; left: 0; padding-left: 15px; padding-top: 15px;">
-        <div id="navToggleButton" style="cursor: pointer;">
-          <div class="top"></div>
-          <div class="middle"></div>
-          <div class="bottom"></div>
-        </div>
-  
-        <div id="mySidenav" class="sidenav">
-          <a href="/nuance/">home</a>
-          <a href="/nuance/journals.html">journals</a>
-          <a href="/nuance/readings.html">readings</a>
-          <a href="/nuance/links.html">links</a>
-          <a href="/nuance/about.html">about me</a>
-        </div>
-      </div>
-<main>
+  <main>
     <div class="title" style="margin: 5% 15% 2% 15%;">
       <h1 id="header1" style="display:inline;"></h1>
           <div id="tag-filter-row" >
@@ -103,43 +58,19 @@
     </div>
     </div>
 
-</main>
+  </main>
 
 </body>
 
 <footer>
-    <script>
-      function start() {
-        type('journals', 'header1');
-      }
-      window.onload = start;
-    </script>
-
-    <script>
-    var navOpen = false;
-
-    function toggleNav() {
-    if(navOpen){
-        closeNav();
+  <script src="/nuance/static/animations.js"></script>
+  <!-- <script src="/nuance/static/menu.js"></script> -->
+  <script>
+    function start() {
+      type('journals', 'header1');
     }
-    else{
-        openNav();
-    }
-    }
-
-    function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    navOpen = true;
-    }
-
-    function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    navOpen = false;
-    }
-
-    var navButton = document.getElementById('navToggleButton');
-    navButton.addEventListener('click', toggleNav);
-    </script>
+    window.onload = start;
+  </script>
 </footer>
 
 </html>

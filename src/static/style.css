@@ -1,9 +1,10 @@
+
+/* General Styling */
+
 h1 {
   font-family: 'Poppins';
   font-size: 100pt;
   text-transform: lowercase;
-
-  /*color: rgb(249, 228, 183);*/
 }
 
 h2 {
@@ -57,32 +58,24 @@ body {
   background-color: blanchedalmond;
 }
 
-/*
-** Sidebar
-*/
+/* Menu */
 
-.sidenav {
-  width: 0;
+.home{
   position: fixed;
-  z-index: -1;
   top: 0;
   left: 0;
-  overflow-x: hidden;
-  padding: 8px 0;
-  padding-top: 50px;
-  transition: 0.5s;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  display: block;
+.top, .middle, .bottom {
+  width: 35px;
+  height: 6px;
+  background-color: black;
+  margin: 7px 0;
 }
 
-/*
-** filters
-*/
+/* Filters */
 
 .tag-filter {
   font-family: 'Poppins';
@@ -100,26 +93,27 @@ body {
   color: burlywood;
   transition: 0.3s;
 }
- /* Journal Cards */
 
- .journal-deck {
-   box-sizing: border-box;
-   width: 70%;
-   max-width: 1500px;
-   margin-left: 115px;
-   margin-top: 50px;
- }
+/* Journal Cards */
 
- .journal-card {
-   float: left;
-   width: 33.3%;
-   padding-bottom: 20px;
-   min-height: 290px;
- }
+.journal-deck {
+  box-sizing: border-box;
+  width: 70%;
+  max-width: 1500px;
+  margin-left: 115px;
+  margin-top: 50px;
+}
 
- .inner-grid {
-   position:relative;
- }
+.journal-card {
+  float: left;
+  width: 33.3%;
+  padding-bottom: 20px;
+  min-height: 290px;
+}
+
+.inner-grid {
+  position:relative;
+}
 
  .line {
   width: 250px;
