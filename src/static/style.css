@@ -6,6 +6,12 @@ h1 {
   /*color: rgb(249, 228, 183);*/
 }
 
+h2 {
+  font-family:'Poppins';
+  font-size: 28pt;
+  font-weight: 400; /* Medium */
+}
+
 main {
   display: inline;
 }
@@ -93,3 +99,13 @@ body {
   color: burlywood;
   transition: 0.3s;
 }
+ /* Journal Cards */
+
+ .journal-deck {
+   box-sizing: border-box;
+ }
+
+ .journal-card {
+   float:left;
+   width: 33.3%;
+ }
