@@ -74,7 +74,11 @@ body {
   padding: 4px;
 }
 
+#tag-filter-row{
+  margin-top:10px;
+}
 .tag-filter:hover {
+  cursor: pointer;
   color: burlywood;
   transition: 0.3s;
 }
