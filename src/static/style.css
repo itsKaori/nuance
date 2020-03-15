@@ -3,6 +3,7 @@
 
 h1 {
   font-family: 'Poppins';
+  font-weight: 700;
   font-size: 100pt;
   text-transform: lowercase;
 }
@@ -80,7 +81,7 @@ body {
 .tag-filter {
   font-family: 'Poppins';
   font-size: 11.3pt;
-  font-weight: lighter;
+  font-weight: 300;
   padding-right: 15px;
   display: inline-block;
 }
@@ -123,4 +124,5 @@ body {
 
  .journal-card p {
    font-family: 'Poppins';
+   font-weight: 500;
  }
