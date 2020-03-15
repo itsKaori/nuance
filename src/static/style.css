@@ -64,14 +64,14 @@ body {
   display: inline-block;
   width: 100%;
   cursor: pointer;
-}
+} */
 
 .top, .middle, .bottom {
   width: 35px;
   height: 5px;
   background-color: black;
   margin: 7px 0;
-} */
+}
 
 .sidenav {
   width: 0;
