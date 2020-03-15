@@ -6,6 +6,10 @@ h1 {
   /*color: rgb(249, 228, 183);*/
 }
 
+main {
+  display: inline;
+}
+
 .menu {
   margin: auto;
   width: 50%;
@@ -69,9 +73,16 @@ body {
   display: block;
 }
 
+/*
+** filters
+*/
+
 .tag-filter {
-  display: inline-block;
+  font-family: 'Poppins';
+  font-size: 11pt;
+  font-weight: lighter;
   padding: 4px;
+  display: inline-block;
 }
 
 #tag-filter-row{
