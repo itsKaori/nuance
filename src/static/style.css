@@ -8,8 +8,9 @@ h1 {
 
 h2 {
   font-family:'Poppins';
-  font-size: 28pt;
-  font-weight: 400; /* Medium */
+  font-size: 25pt;
+  font-weight: 500; /* Medium */
+  display: inline;
 }
 
 main {
@@ -103,9 +104,19 @@ body {
 
  .journal-deck {
    box-sizing: border-box;
+   width: 70%;
+   max-width: 1500px;
+   margin-left: 115px;
+   margin-top: 50px;
  }
 
  .journal-card {
-   float:left;
+   float: left;
    width: 33.3%;
+   padding-bottom: 20px;
+   min-height: 290px;
+ }
+
+ .inner-grid {
+   position:relative;
  }
