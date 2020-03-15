@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:&display=swap">
     <link rel="stylesheet" type="text/css" href="/nuance/static/style.css">
     <script src="/nuance/static/animations.js"></script>
+    <script src="/nuance/static/menu.js"></script>
     <style>
         
         #navToggleButton {
@@ -113,32 +114,6 @@
         type('journals', 'header1');
       }
       window.onload = start;
-    </script>
-
-    <script>
-    var navOpen = false;
-
-    function toggleNav() {
-    if(navOpen){
-        closeNav();
-    }
-    else{
-        openNav();
-    }
-    }
-
-    function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    navOpen = true;
-    }
-
-    function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    navOpen = false;
-    }
-
-    var navButton = document.getElementById('navToggleButton');
-    navButton.addEventListener('click', toggleNav);
     </script>
 </footer>
 
