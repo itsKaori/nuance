@@ -60,7 +60,7 @@ body {
 
 /* Menu */
 
-#navToggleButton {
+/* #navToggleButton {
   display: inline-block;
   width: 100%;
   cursor: pointer;
@@ -71,7 +71,7 @@ body {
   height: 5px;
   background-color: black;
   margin: 7px 0;
-}
+} */
 
 .sidenav {
   width: 0;
@@ -85,12 +85,12 @@ body {
   transition: 0.5s;
 }
 
-.sidenav a {
+/* .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
   display: block;
-}
+} */
 
 /* Filters */
 
