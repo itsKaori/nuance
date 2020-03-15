@@ -68,7 +68,7 @@ body {
 
 .top, .middle, .bottom {
   width: 35px;
-  height: 5px;
+  height: 10px;
   background-color: black;
   margin: 7px 0;
 }
