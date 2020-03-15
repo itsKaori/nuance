@@ -115,8 +115,12 @@ body {
   position:relative;
 }
 
-.line {
-  width: 3in;
+ .line {
+  width: 250px;
   height: 2pt;
   background-color: black;
-}
+ }
+
+ .journal-card p {
+   font-family: 'Poppins';
+ }
