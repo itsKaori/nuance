@@ -120,3 +120,12 @@ body {
  .inner-grid {
    position:relative;
  }
+
+ .line {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+ }
