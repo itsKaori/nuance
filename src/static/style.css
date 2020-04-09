@@ -114,7 +114,7 @@ body {
 }
 
 .inner-grid {
-  position:relative;
+  position: relative;
 }
 
  .line {
@@ -126,4 +126,7 @@ body {
  .journal-card p {
    font-family: 'Poppins';
    font-weight: 500;
+   margin: 0;
+   padding-top: 15px;
+   display: inline-block;
  }
