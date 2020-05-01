@@ -100,8 +100,8 @@ body {
   box-sizing: border-box;
   width: 70%;
   max-width: 1500px;
-  margin-left: 115px;
-  margin-top: 50px;
+  margin-left: 20%;
+  margin-top: 3%;
 }
 
 .journal-card {
@@ -117,16 +117,16 @@ body {
   position: relative;
 }
 
- .line {
+.line {
   width: 250px;
   height: 2pt;
   background-color: black;
- }
+}
 
- .journal-card p {
-   font-family: 'Poppins';
-   font-weight: 500;
-   margin: 0;
-   padding-top: 15px;
-   display: inline-block;
- }
+.journal-card p {
+  font-family: 'Poppins';
+  font-weight: 500;
+  margin: 0;
+  padding-top: 15px;
+  display: inline-block;
+}
