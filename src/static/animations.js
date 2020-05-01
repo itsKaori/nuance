@@ -14,7 +14,7 @@ function type(txt, id, i=0) {
 }
 
 /* Type out text with a blinking cursor */
-function typeWriter(txt, id, i=0) {
+function typeBlink(txt, id, i=0) {
   type(txt, id, i);
 
   blinkCursor(id);
@@ -23,7 +23,7 @@ function typeWriter(txt, id, i=0) {
 /* Add a blinking cursor to the end of an element */
 function blinkCursor(id) {
    var element = document.getElementById(id);
-   var hasCursor = false;
+   // var hasCursor = false;
 
    setInterval(
       function() {
