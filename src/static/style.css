@@ -4,19 +4,21 @@
 h1, #header1 {
   font-family: 'Poppins';
   font-weight: 700;
-  font-size: 100pt;
+  font-size: 90pt;
   text-transform: lowercase;
 }
 
 @media screen and (max-width:601px){
   h1, #header1 {
     font-size: 35pt;
+    transition: font-size 1s;
   }
 }
 
 @media screen and (min-width:600px){
   h1, #header1 {
-    font-size: 100pt;
+    font-size: 90pt;
+    transition: font-size 1s;
   }
 }
 
@@ -30,6 +32,7 @@ h2 {
 @media screen and (max-width:600px){
   .tags {
     font-size: 6pt;
+    transition: font-size 1s;
   }
 }
 
@@ -71,9 +74,15 @@ a {
   cursor: pointer;
 }
 
+img {
+  width: 15%;
+  height: 15%;
+}
+
 @media screen and (max-width:601px){
   a {
-    inline-size: 2vw;
+    inline-size: 50vw;
+    transition: inline-size 1s;
   }
 }
 
@@ -124,7 +133,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-columns: 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333%;
   grid-template-rows: auto auto 30% 30% 30% 30%;
   column-gap: 1%;
   
@@ -135,15 +144,20 @@ body {
 }
 
 .tags {
-  grid-column: 4 / span 4;
-  padding-bottom: 5%;
+  grid-column: 4 / span 6;
+  padding-bottom: 4%;
+}
+
+li {
+  display: inline;
+  padding-right: 2%;
 }
 
 .card-container {
   display: grid;
   grid-template-columns: 30% 30% 30%;
   grid-template-rows: auto auto auto auto;
-  grid-column: 3 / span 6;
+  grid-column: 3 / span 7;
   column-gap: 1%;
   row-gap: 5%;
 }
