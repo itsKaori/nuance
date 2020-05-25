@@ -61,6 +61,11 @@ html {
   letter-spacing: 0.5em;
 }
 
+#navlogo {
+  width: 100%;
+  height: auto;
+}
+
 .posts{
   font-family: 'Poppins';
   font-size: 20pt;
@@ -72,11 +77,6 @@ a {
   color: black;
   background-size: 20px;
   cursor: pointer;
-}
-
-img {
-  width: 15%;
-  height: 15%;
 }
 
 @media screen and (max-width:601px){
@@ -101,8 +101,10 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  padding-left: 5px;
-  padding-top: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 110px;
+  height: auto;
 }
 
 /* Filters */
