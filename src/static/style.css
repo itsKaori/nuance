@@ -24,8 +24,8 @@ h1, #header1 {
 
 h2 {
   font-family:'Poppins';
-  font-size: 25pt;
-  font-weight: 500; /* Medium */
+  font-size: 30pt;
+  font-weight: 600; /* Semi-Bold*/
 }
 
 @media screen and (max-width:600px){
@@ -135,7 +135,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333%;
-  grid-template-rows: auto auto 30% 30% 30% 30%;
+  grid-template-rows: auto auto 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% ;
   column-gap: 1%;
 }
 .title {
@@ -176,8 +176,12 @@ li {
   grid-row: 1;
 }
 #myname {
-  grid-column: 8 / span 3;
-  grid-row: 1 /auto;
+  grid-column: 3 / span 3;
+  grid-row: 10 / span 1;
+  font-family:'Poppins';
+  font-size: 30pt;
+  font-weight: 600; /* Semi-Bold*/
+  display: inline;
 }
 .bio {
   grid-column: 3 / span 3;
