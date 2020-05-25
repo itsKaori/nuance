@@ -26,7 +26,6 @@ h2 {
   font-family:'Poppins';
   font-size: 25pt;
   font-weight: 500; /* Medium */
-  display: inline;
 }
 
 @media screen and (max-width:600px){
@@ -34,6 +33,12 @@ h2 {
     font-size: 6pt;
     transition: font-size 1s;
   }
+}
+
+p {
+  font-family:'Poppins';
+  font-size: 16pt;
+  font-weight: 300; /* Light 300 */
 }
 
 main {
@@ -103,7 +108,7 @@ body {
   left: 0;
   margin-left: 15px;
   margin-top: 15px;
-  width: 110px;
+  width: 85px;
   height: auto;
 }
 
@@ -122,8 +127,9 @@ body {
 }
 
 /* Journal Cards */
+
 .grid .journal {
-  background-color: cyan;
+  background-color: burlywood;
 }
 
 .grid {
@@ -159,6 +165,7 @@ li {
 .journal {
   grid-row: 1;
 }
+
  /* About Me */
 
 #aboutheader {
@@ -173,6 +180,7 @@ li {
   grid-row: 1 /auto;
 }
 .bio {
-  grid-column: 5 / span 2;
+  grid-column: 3 / span 3;
   grid-row: 3;
 }
+
