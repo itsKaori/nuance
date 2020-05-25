@@ -101,15 +101,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  padding-left: 15px;
+  padding-left: 5px;
   padding-top: 15px;
-}
-
-.top, .middle, .bottom {
-  width: 35px;
-  height: 6px;
-  background-color: black;
-  margin: 7px 0;
 }
 
 /* Filters */
@@ -136,7 +129,6 @@ body {
   grid-template-columns: 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333%;
   grid-template-rows: auto auto 30% 30% 30% 30%;
   column-gap: 1%;
-  
 }
 .title {
   grid-column: 4 / auto;
@@ -164,4 +156,21 @@ li {
 
 .journal {
   grid-row: 1;
+}
+ /* About Me */
+
+#aboutheader {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  display: inline-block;
+  grid-column: 3 / span 5;
+  grid-row: 1;
+}
+#myname {
+  grid-column: 8 / span 3;
+  grid-row: 1 /auto;
+}
+.bio {
+  grid-column: 5 / span 2;
+  grid-row: 3;
 }
