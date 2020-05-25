@@ -61,6 +61,11 @@ html {
   letter-spacing: 0.5em;
 }
 
+.nav img {
+  width: 100%;
+  height: auto;
+}
+
 .posts{
   font-family: 'Poppins';
   font-size: 20pt;
@@ -72,11 +77,6 @@ a {
   color: black;
   background-size: 20px;
   cursor: pointer;
-}
-
-img {
-  width: 15%;
-  height: 15%;
 }
 
 @media screen and (max-width:601px){
@@ -101,15 +101,10 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  padding-left: 15px;
-  padding-top: 15px;
-}
-
-.top, .middle, .bottom {
-  width: 35px;
-  height: 6px;
-  background-color: black;
-  margin: 7px 0;
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 3%;
+  height: auto;
 }
 
 /* Filters */
