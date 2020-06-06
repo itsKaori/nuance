@@ -1,0 +1,201 @@
+
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* General Styling */
+
+h1, #header1 {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 90pt;
+  text-transform: lowercase;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width:601px){
+  h1, #header1 {
+    font-size: 35pt;
+    transition: font-size 1s;
+  }
+}
+
+@media screen and (min-width:600px){
+  h1, #header1 {
+    font-size: 90pt;
+    transition: font-size 1s;
+  }
+}
+
+h2 {
+  font-family:'Poppins';
+  font-size: 30pt;
+  font-weight: 600; /* Semi-Bold*/
+}
+
+@media screen and (max-width:600px){
+  .tags {
+    font-size: 6pt;
+    transition: font-size 1s;
+  }
+}
+
+p {
+  font-family:'Poppins';
+  font-size: 16pt;
+  font-weight: 300; /* Light 300 */
+}
+
+main {
+  display: grid;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.main{
+  margin: auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.menu {
+  margin: auto;
+  width: 50%;
+}
+
+.navs {
+  padding-top: 0%;
+  padding-left: 5%;
+}
+
+.nav {
+  font-family: 'Poppins';
+  font-size: 20pt;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+
+#navlogo {
+  width: 100%;
+  height: auto;
+}
+
+.posts{
+  font-family: 'Poppins';
+  font-size: 20pt;
+}
+
+a {
+  font-family: 'Poppins';
+  text-decoration: none;
+  color: black;
+  background-size: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:601px){
+  a {
+    inline-size: 50vw;
+    transition: inline-size 1s;
+  }
+}
+
+a:hover {
+  color: burlywood;
+  transition: 0.3s;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+/* Menu */
+
+.home{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 85px;
+  height: auto;
+}
+
+/* Filters */
+
+.tag-filter {
+  font-family: 'Poppins';
+  font-size: 11 pt;
+  font-weight: 300;
+}
+
+.tag-filter:hover {
+  cursor: pointer;
+  color: burlywood;
+  transition: 0.3s;
+}
+
+/* Journal Cards */
+
+.grid .journal {
+  background-color: burlywood;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333%;
+  grid-template-rows: auto auto 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% 8.333% ;
+  column-gap: 1%;
+}
+.title {
+  grid-column: 4 / auto;
+  grid-row: auto;
+}
+
+.tags {
+  grid-column: 4 / span 6;
+  padding-bottom: 4%;
+}
+
+li {
+  display: inline;
+  padding-right: 2%;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: auto auto auto auto;
+  grid-column: 3 / span 7;
+  column-gap: 1%;
+  row-gap: 5%;
+}
+
+.journal {
+  grid-row: 1;
+}
+
+ /* About Me */
+
+#aboutheader {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  display: inline-block;
+  grid-column: 3 / span 5;
+  grid-row: 1;
+}
+#myname {
+  grid-column: 3 / span 3;
+  grid-row: 10 / span 1;
+  font-family:'Poppins';
+  font-size: 30pt;
+  font-weight: 600; /* Semi-Bold*/
+  display: inline;
+}
+.bio {
+  grid-column: 3 / span 3;
+  grid-row: 3;
+}
+

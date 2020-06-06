@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {{ partial "head.html" }}
+  <title>{{ .Title }}</title>
+</head>
+
+<body>
+    {{ partial "menu.html" }}
+    <div class="menu">
+      <h1>{{.Title}}</h1>
+      {{ .Content }}
+    </main>
+</body>
+
+</html>
