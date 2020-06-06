@@ -9,16 +9,9 @@
   <meta name="author" content="KH">
   <meta name="description" content="exploring topics to absolutely no end">
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap">
   <link rel="stylesheet" type="text/css" href="/static/style.css">
 
-  <style>
-    .main{
-      margin: auto;
-      padding: 20px;
-      max-width: 800px;
-    }
-  </style>
+  <script src="/static/animations.js"></script>
 </head>
 
 <body>
@@ -26,23 +19,21 @@
     <img src="spiral.png" alt="Spiral Home Nav" id="navlogo"> 
   </a>
 
-    <div class="grid">
-      <h1 id="aboutheader" style="display: grid;"></h1>
-      <p class="bio text">Hi, I'm Kaori Hall. I am currently an undergrad double major in Microbiology and Cell Science and Art at UF. I plan on pursuing a Ph.D. in Mycology. In between my studies I enjoy creating art and working on personal creative projects (like this website).</p>
-      <div id="myname">What is "nuance"?</div>
-      <p>nuance recognizes the overlooked, seemingly unimportant details of life. Here, I focus on neglected subjects I find important, as well as fun projects I happen to be doing.</p>
-    </div>
-</body>
+  <div class="grid">
+    <h1 id="aboutheader" style="display: grid;"></h1>
+    <p class="bio text">Hi, I'm Kaori Hall. I am currently an undergrad double major in Microbiology and Cell Science and Art at UF. I plan on pursuing a Ph.D. in Mycology. In between my studies I enjoy creating art and working on personal creative projects (like this website).</p>
+    <div id="myname">What is "nuance"?</div>
+    <p>nuance recognizes the overlooked, seemingly unimportant details of life. Here, I focus on neglected subjects I find important, as well as fun projects I happen to be doing.</p>
+  </div>
 
-<footer>
-  <script src="/static/animations.js"></script>
-  
-  <script>
-    function start() {
-      type('about me', 'aboutheader');
-    }
-    window.onload = start;
-  </script>
-</footer>
+  <footer>
+    <script>
+      function start() {
+        type('about me', 'aboutheader');
+      }
+      window.onload = start;
+    </script>
+  </footer>
+</body>
 
 </html>
