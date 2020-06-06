@@ -56,7 +56,7 @@ printf "\033[2H"
 sleep 0.8
 
 # Start!
-while [ 1 == 1 ]; do
+while [ true ]; do
   printf "\033[K"
   printf "<       <3       >"
   printf "\033[2H"
