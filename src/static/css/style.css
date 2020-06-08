@@ -9,6 +9,10 @@
   font-family:'Poppins';
 }
 
+html {
+  box-sizing: border-box;
+}
+
 h1, #header1 {
   font-family: 'Poppins';
   font-weight: 700;
@@ -17,31 +21,9 @@ h1, #header1 {
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width:601px){
-  h1, #header1 {
-    font-size: 35pt;
-    transition: font-size 1s;
-  }
-}
-
-@media screen and (min-width:600px){
-  h1, #header1 {
-    font-size: 90pt;
-    transition: font-size 1s;
-  }
-}
-
 h2 {
-  font-family:'Poppins';
   font-size: 30pt;
   font-weight: 600; /* Semi-Bold*/
-}
-
-@media screen and (max-width:600px){
-  .tags {
-    font-size: 6pt;
-    transition: font-size 1s;
-  }
 }
 
 p {
@@ -51,16 +33,6 @@ p {
 
 main {
   display: grid;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-.main{
-  margin: auto;
-  padding: 20px;
-  max-width: 800px;
 }
 
 .menu {
@@ -85,24 +57,9 @@ html {
   height: auto;
 }
 
-.posts{
-  font-family: 'Poppins';
-  font-size: 20pt;
-}
-
 a {
-  font-family: 'Poppins';
   text-decoration: none;
   color: black;
-  background-size: 20px;
-  cursor: pointer;
-}
-
-@media screen and (max-width:601px){
-  a {
-    inline-size: 50vw;
-    transition: inline-size 1s;
-  }
 }
 
 a:hover {
@@ -178,7 +135,6 @@ li {
 }
 
 .journal {
-  grid-row: 1;
   padding: 2rem;
   padding-top: 1rem;
   border-radius: 2rem;
@@ -191,23 +147,53 @@ li {
 
  /* About Me */
 
-#aboutheader {
+ #aboutheader {
+  display: inline-block;
   margin-top: 1%;
   margin-bottom: 2%;
-  display: inline-block;
   grid-column: 3 / span 5;
   grid-row: 1;
 }
+
 #myname {
+  display: inline;
   grid-column: 3 / span 3;
   grid-row: 10 / span 1;
-  font-family:'Poppins';
   font-size: 30pt;
   font-weight: 600; /* Semi-Bold*/
-  display: inline;
 }
+
 .bio {
   grid-column: 3 / span 3;
   grid-row: 3;
 }
 
+/* Responsiveness */
+
+@media screen and (max-width:601px){
+  h1, #header1 {
+    font-size: 35pt;
+    transition: font-size 1s;
+  }
+}
+
+@media screen and (min-width:600px){
+  h1, #header1 {
+    font-size: 90pt;
+    transition: font-size 1s;
+  }
+}
+
+@media screen and (max-width:601px){
+  a {
+    inline-size: 50vw;
+    transition: inline-size 1s;
+  }
+}
+
+@media screen and (max-width:600px){
+  .tags {
+    font-size: 6pt;
+    transition: font-size 1s;
+  }
+}

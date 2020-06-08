@@ -7,11 +7,13 @@
 </head>
 
 <body>
-    {{ partial "menu.html" }}
-    <div class="menu">
-      <h1>{{.Title}}</h1>
+  {{ partial "menu.html" }}
+  <main>  
+    <div style="width: 45%; display: flex; flex-direction: column; margin-left: 300px; margin-right: 300px;"> 
+      <h1 style="margin-top: 1rem;">{{.Title}}</h1>
       {{ .Content }}
     </div>
+  </main>
 </body>
 
 </html>
