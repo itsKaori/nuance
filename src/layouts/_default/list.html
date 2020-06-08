@@ -2,35 +2,45 @@
 <html lang="en">
 
 <head>
-  {{ partial "head.html"}}
+  {{ partial "head.html" }}
   <title>{{ .Title }}</title>
 </head>
 
 <body>
   <container class="main-container">
-    
-    <main>
-      <!-- Gets _index.md from the blog/ folder -->
-      {{ .Content }}
+    {{ partial "menu.html" }}
 
-      {{- range .Pages }}
-        <div class="post">
-          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-          
-          <span>{{ .Date.Format "January 2, 2006" }}</span>
-          {{ if (isset .Params.tags nil) (gt (len .Params.tags) 0) }}
-          <div class="tag-list">
-            {{- range .Params.tags }}
-              <a class="tag" href="/tags/{{ . }}">{{.}}</a>
-            {{- end }}
-          </div>
-          {{ end }}
-          
-          {{ .Render "p"}}
+    <main>  
+      <div class="grid">
+        <div id="header1" class= "title" style="display: grid"></div>
+        <div class= "tags"> 
+          <li class= "tag-filter">Shower Thoughts</li>
+          <li class= "tag-filter">Reflections</li>
+          <li class= "tag-filter">Self Learning</li>
+          <li class= "tag-filter">Projects</li>
+          <li class= "tag-filter">Misc.</li>
         </div>
-      {{- end }}
+        <div class = "card-container"> 
+          {{- range .Pages }}
+          <div class="journal">
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            <span>{{ .Date.Format "January 2, 2006" }}</span>
+          </div>
+          {{- end }}
+        </div>
+        
+      </div>
+      
     </main>
 
+    <footer>
+      <script>
+        function start() {
+          type('journals', 'header1');
+        }
+        window.onload = start;
+      </script>
+    </footer>
   </container>
 </body>
 

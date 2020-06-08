@@ -5,6 +5,10 @@
 
 /* General Styling */
 
+* {
+  font-family:'Poppins';
+}
+
 h1, #header1 {
   font-family: 'Poppins';
   font-weight: 700;
@@ -41,7 +45,6 @@ h2 {
 }
 
 p {
-  font-family:'Poppins';
   font-size: 16pt;
   font-weight: 300; /* Light 300 */
 }
@@ -139,8 +142,9 @@ body {
 
 /* Journal Cards */
 
-.grid .journal {
-  background-color: burlywood;
+.grid .journal:hover {
+  background-color: #FFE8D6;
+  transition: background-color 0.2s ease;
 }
 
 .grid {
@@ -175,6 +179,14 @@ li {
 
 .journal {
   grid-row: 1;
+  padding: 2rem;
+  padding-top: 1rem;
+  border-radius: 2rem;
+}
+
+.journal h2 {
+  padding-bottom: 1rem;
+  margin: 0px; 
 }
 
  /* About Me */
