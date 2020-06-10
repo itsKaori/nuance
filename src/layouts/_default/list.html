@@ -12,20 +12,24 @@
 
     <main>  
       <div class="grid">
-        <div id="header1" class= "title" style="display: grid"></div>
-        <div class= "tags"> 
-          <li class= "tag-filter">Shower Thoughts</li>
-          <li class= "tag-filter">Reflections</li>
-          <li class= "tag-filter">Self Learning</li>
-          <li class= "tag-filter">Projects</li>
-          <li class= "tag-filter">Misc.</li>
-        </div>
+        <section class="heading">
+          <div id="header1" class= "title"></div>
+            <div class= "tags"> 
+              <li class= "tag-filter">Reflections</li>
+              <li class= "tag-filter">Self Learning</li>
+              <li class= "tag-filter">Projects</li>
+              <li class= "tag-filter">Cool Shit</li>
+          </div>
+        </section>
         <div class = "card-container"> 
           {{- range .Pages }}
-          <div class="journal">
-            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+         <!-- <div class="journal"> -->
+           <a href="{{ .Permalink }}" class="link_post">
+            <div class="journal"><h2>{{ .Title }}</h2>
             <span>{{ .Date.Format "January 2, 2006" }}</span>
           </div>
+          </a>
+        <!-- </div>  -->
           {{- end }}
         </div>
         
