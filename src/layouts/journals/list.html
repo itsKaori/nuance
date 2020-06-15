@@ -26,12 +26,10 @@
         
         <div class="card-container">
           {{- range .Pages }}
-          <a href="{{ .Permalink }}" class="link_post">
-          <div class="journal">
+          <div class="journal" onclick="window.location.href='{{ .Permalink }}'">
             <h2>{{ .Title }}</h2>
             <span>{{ .Date.Format "January 2, 2006" }}</span>
           </div>
-          </a>
           {{- end }}
         </div>
       

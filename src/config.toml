@@ -1,3 +1,4 @@
 baseURL = "https://kaoriii.com/"
 languageCode = "en-us"
 title = "nuance"
+enableEmoji = true

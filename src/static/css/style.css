@@ -24,6 +24,8 @@ h1, #header1 {
 h2 {
   font-size: 30pt;
   font-weight: 600; /* Semi-Bold*/
+  padding: 0rem 0rem 1rem 0rem;
+  margin: 0px;
 }
 
 p {
@@ -174,21 +176,29 @@ section li {
   row-gap: 1%;
 }
 
-.link_post{
+.journal {
   padding: 2rem;
   padding-top: 1rem;
   border-radius: 2rem;
 }
 
-.link_post:hover{
+.journal:hover{
+  cursor: pointer;
   background-color: #323c40;
   color: burlywood;
   transition: background-color 0.5s ease;
 }
 
-.journal, h2 {
-  padding: 0rem 0rem 1rem 0rem;
-  margin: 0px; 
+.tag {
+  padding: 5px 9px 5px 9px;
+  border-radius: 10px;
+  background-color: burlywood;
+  color: black;
+}
+
+.tag:hover {
+  background-color: #273033;
+  transition: background-color 0.2s ease;
 }
 
  /* About Me */

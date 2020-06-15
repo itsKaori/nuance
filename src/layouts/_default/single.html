@@ -11,6 +11,14 @@
   <main>  
     <div style="width: 45%; display: flex; flex-direction: column; margin-left: 300px; margin-right: 300px;"> 
       <h1 style="margin-top: 1rem;">{{.Title}}</h1>
+      {{ if (isset .Params.tags nil) (gt (len .Params.tags) 0) }}
+      <div>
+        {{- range .Params.tags }}
+        <a class="tag" href="/tags/{{ . }}">{{.}}</a>
+        {{- end }}
+        <br>
+      </div>
+      {{ end }}
       {{ .Content }}
     </div>
   </main>
