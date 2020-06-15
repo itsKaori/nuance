@@ -12,10 +12,18 @@
 
     <main>
       <div class="grid">
+        
         <section class="heading">
           <div id="header1" class="title"></div>
+          <!-- TODO  Make these dynamic -->
+          <div class="tags">
+            <li class="tag-filter"><a href="/tags/reflections/">Reflections</a></li>
+            <li class="tag-filter">Self Learning</li>
+            <li class="tag-filter">Projects</li>
+            <li class="tag-filter">Cool Shit</li>
+          </div>
         </section>
-
+        
         <div class="card-container">
           {{- range .Pages }}
           <a href="{{ .Permalink }}" class="link_post">
@@ -33,7 +41,7 @@
     <footer>
       <script>
         function start() {
-          type('{{.Title}}', 'header1');
+          type('journals', 'header1');
         }
         window.onload = start;
       </script>
