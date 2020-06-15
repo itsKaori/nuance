@@ -1,6 +1,7 @@
 ---
-title: post 3
+title: big wow
 draft: false
+tags: ['interesting']
 ---
 
 Hi, I'm Kaori Hall. I am currently an undergrad double major in Microbiology and Cell Science and Art at UF. I plan on pursuing a Ph.D. in Mycology. In between my studies I enjoy creating art and working on personal creative projects (like this website).
