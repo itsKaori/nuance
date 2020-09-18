@@ -18,31 +18,29 @@
 
 <body>
   <container class="main-container">
-    <a class="home" href="/">
-  <img src="/img/spiral.png" alt="Spiral Home Nav" id="navlogo"> 
-</a>
+    <div id="mysidenav" class="sidenav">
+  <a href="/" id="home">Home</a>
+  <a href="/journals/" id="journals">Journals</a>
+  <a href="/links/" id="links">Links</a>
+  <a href="/about/" id="about">About</a>
+</div>
 
-    <main>  
+    <main>
       <div class="grid">
-        <div id="header1" class= "title" style="display: grid"></div>
-        <div class= "tags"> 
-          <li class= "tag-filter">Shower Thoughts</li>
-          <li class= "tag-filter">Reflections</li>
-          <li class= "tag-filter">Self Learning</li>
-          <li class= "tag-filter">Projects</li>
-          <li class= "tag-filter">Misc.</li>
+        <section class="heading">
+          <div id="header1" class="title"></div>
+        </section>
+
+        <div class="card-container">
         </div>
-        <div class = "card-container">
-        </div>
-        
-      </div>
       
+      </div>
     </main>
 
     <footer>
       <script>
         function start() {
-          type('journals', 'header1');
+          type('Categories', 'header1');
         }
         window.onload = start;
       </script>

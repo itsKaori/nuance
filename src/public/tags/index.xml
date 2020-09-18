@@ -10,5 +10,41 @@
 	<atom:link href="https://kaoriii.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>interesting</title>
+      <link>https://kaoriii.com/tags/interesting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaoriii.com/tags/interesting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://kaoriii.com/tags/learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaoriii.com/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>my-tag</title>
+      <link>https://kaoriii.com/tags/my-tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaoriii.com/tags/my-tag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reflections</title>
+      <link>https://kaoriii.com/tags/reflections/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaoriii.com/tags/reflections/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

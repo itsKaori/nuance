@@ -11,7 +11,17 @@
     
     
     <item>
-      <title>post 1</title>
+      <title>big wow</title>
+      <link>https://kaoriii.com/journals/post-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaoriii.com/journals/post-3/</guid>
+      <description>Hi, I&amp;rsquo;m Kaori Hall. I am currently an undergrad double major in Microbiology and Cell Science and Art at UF. I plan on pursuing a Ph.D. in Mycology. In between my studies I enjoy creating art and working on personal creative projects (like this website).
+What is &amp;ldquo;nuance&amp;rdquo;? nuance recognizes the overlooked, seemingly unimportant details of life. Here, I focus on neglected subjects I find important, as well as fun projects I happen to be doing.</description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
       <link>https://kaoriii.com/journals/post-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -26,16 +36,6 @@ What is &amp;ldquo;nuance&amp;rdquo;? nuance recognizes the overlooked, seemingl
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kaoriii.com/journals/post-2/</guid>
-      <description>Hi, I&amp;rsquo;m Kaori Hall. I am currently an undergrad double major in Microbiology and Cell Science and Art at UF. I plan on pursuing a Ph.D. in Mycology. In between my studies I enjoy creating art and working on personal creative projects (like this website).
-What is &amp;ldquo;nuance&amp;rdquo;? nuance recognizes the overlooked, seemingly unimportant details of life. Here, I focus on neglected subjects I find important, as well as fun projects I happen to be doing.</description>
-    </item>
-    
-    <item>
-      <title>post 3</title>
-      <link>https://kaoriii.com/journals/post-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kaoriii.com/journals/post-3/</guid>
       <description>Hi, I&amp;rsquo;m Kaori Hall. I am currently an undergrad double major in Microbiology and Cell Science and Art at UF. I plan on pursuing a Ph.D. in Mycology. In between my studies I enjoy creating art and working on personal creative projects (like this website).
 What is &amp;ldquo;nuance&amp;rdquo;? nuance recognizes the overlooked, seemingly unimportant details of life. Here, I focus on neglected subjects I find important, as well as fun projects I happen to be doing.</description>
     </item>

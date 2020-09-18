@@ -18,37 +18,43 @@
 
 <body>
   <container class="main-container">
-    <a class="home" href="/">
-  <img src="/img/spiral.png" alt="Spiral Home Nav" id="navlogo"> 
-</a>
+    <div id="mysidenav" class="sidenav">
+  <a href="/" id="home">Home</a>
+  <a href="/journals/" id="journals">Journals</a>
+  <a href="/links/" id="links">Links</a>
+  <a href="/about/" id="about">About</a>
+</div>
 
-    <main>  
+    <main>
       <div class="grid">
-        <div id="header1" class= "title" style="display: grid"></div>
-        <div class= "tags"> 
-          <li class= "tag-filter">Shower Thoughts</li>
-          <li class= "tag-filter">Reflections</li>
-          <li class= "tag-filter">Self Learning</li>
-          <li class= "tag-filter">Projects</li>
-          <li class= "tag-filter">Misc.</li>
-        </div>
-        <div class = "card-container">
-          <div class="journal">
-            <h2><a href="https://kaoriii.com/journals/post-1/">post 1</a></h2>
-            <span>January 1, 0001</span>
-          </div>
-          <div class="journal">
-            <h2><a href="https://kaoriii.com/journals/post-2/">post 2</a></h2>
-            <span>January 1, 0001</span>
-          </div>
-          <div class="journal">
-            <h2><a href="https://kaoriii.com/journals/post-3/">post 3</a></h2>
-            <span>January 1, 0001</span>
-          </div>
-        </div>
         
-      </div>
+        <section class="heading">
+          <div id="header1" class="title"></div>
+          
+          <div class="tags">
+            <li class="tag-filter"><a href="/tags/reflections/">Reflections</a></li>
+            <li class="tag-filter"><a href="/tags/learning/">Learning</a></li>
+            <li class="tag-filter"><a href="/tags/projects/">Projects</a></li>
+            <li class="tag-filter"><a href="/tags/interesting/">Interesting</a></li>
+          </div>
+        </section>
+        
+        <div class="card-container">
+          <div class="journal" onclick="window.location.href='https:\/\/kaoriii.com\/journals\/post-3\/'">
+            <h2>big wow</h2>
+            <span>January 1, 0001</span>
+          </div>
+          <div class="journal" onclick="window.location.href='https:\/\/kaoriii.com\/journals\/post-1\/'">
+            <h2>Hello World!</h2>
+            <span>January 1, 0001</span>
+          </div>
+          <div class="journal" onclick="window.location.href='https:\/\/kaoriii.com\/journals\/post-2\/'">
+            <h2>post 2</h2>
+            <span>January 1, 0001</span>
+          </div>
+        </div>
       
+      </div>
     </main>
 
     <footer>
