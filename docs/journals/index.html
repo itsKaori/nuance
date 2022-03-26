@@ -13,7 +13,7 @@
 
 <script src="/js/animations.js"></script>
 
-  <title>learning</title>
+  <title>Journals</title>
 </head>
 
 <body>
@@ -27,17 +27,23 @@
 
     <main>
       <div class="grid">
+        
         <section class="heading">
           <div id="header1" class="title"></div>
-        </section>
-
-        <div class="card-container">
-          <a href="https://kaoriii.com/journals/post-2/" class="link_post">
-          <div class="journal">
-            <h2>post 2</h2>
-            <span>January 1, 0001</span>
+          
+          <div class="tags">
+            <li class="tag-filter"><a href="/tags/reflections/">Reflections</a></li>
+            <li class="tag-filter"><a href="/tags/learning/">Learning</a></li>
+            <li class="tag-filter"><a href="/tags/projects/">Projects</a></li>
+            <li class="tag-filter"><a href="/tags/interesting/">Interesting</a></li>
           </div>
-          </a>
+        </section>
+        
+        <div class="card-container">
+          <div class="journal" onclick="window.location.href='https:\/\/kaoriii.com\/journals\/mycology-catalogue\/'">
+            <h2>Mycology Catalogue</h2>
+            <span>September 18, 2020</span>
+          </div>
         </div>
       
       </div>
@@ -46,7 +52,7 @@
     <footer>
       <script>
         function start() {
-          type('learning', 'header1');
+          type('journals', 'header1');
         }
         window.onload = start;
       </script>

@@ -13,7 +13,7 @@
 
 <script src="/js/animations.js"></script>
 
-  <title>Journals</title>
+  <title>Tags</title>
 </head>
 
 <body>
@@ -27,31 +27,23 @@
 
     <main>
       <div class="grid">
-        
         <section class="heading">
           <div id="header1" class="title"></div>
-          
-          <div class="tags">
-            <li class="tag-filter"><a href="/tags/reflections/">Reflections</a></li>
-            <li class="tag-filter"><a href="/tags/learning/">Learning</a></li>
-            <li class="tag-filter"><a href="/tags/projects/">Projects</a></li>
-            <li class="tag-filter"><a href="/tags/interesting/">Interesting</a></li>
-          </div>
         </section>
-        
+
         <div class="card-container">
-          <div class="journal" onclick="window.location.href='https:\/\/kaoriii.com\/journals\/post-3\/'">
-            <h2>big wow</h2>
-            <span>January 1, 0001</span>
+          <a href="https://kaoriii.com/tags/learning/" class="link_post">
+          <div class="journal">
+            <h2>learning</h2>
+            <span>September 18, 2020</span>
           </div>
-          <div class="journal" onclick="window.location.href='https:\/\/kaoriii.com\/journals\/post-1\/'">
-            <h2>Hello World!</h2>
-            <span>January 1, 0001</span>
+          </a>
+          <a href="https://kaoriii.com/tags/mycology/" class="link_post">
+          <div class="journal">
+            <h2>mycology</h2>
+            <span>September 18, 2020</span>
           </div>
-          <div class="journal" onclick="window.location.href='https:\/\/kaoriii.com\/journals\/post-2\/'">
-            <h2>post 2</h2>
-            <span>January 1, 0001</span>
-          </div>
+          </a>
         </div>
       
       </div>
@@ -60,7 +52,7 @@
     <footer>
       <script>
         function start() {
-          type('journals', 'header1');
+          type('Tags', 'header1');
         }
         window.onload = start;
       </script>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>learning on nuance</title>
+    <link>https://kaoriii.com/tags/learning/</link>
+    <description>Recent content in learning on nuance</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Sep 2020 01:45:55 -0400</lastBuildDate>
+    
+	<atom:link href="https://kaoriii.com/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mycology Catalogue</title>
+      <link>https://kaoriii.com/journals/mycology-catalogue/</link>
+      <pubDate>Fri, 18 Sep 2020 01:45:55 -0400</pubDate>
+      
+      <guid>https://kaoriii.com/journals/mycology-catalogue/</guid>
+      <description>TODO</description>
+    </item>
+    
+  </channel>
+</rss>
