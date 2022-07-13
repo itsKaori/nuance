@@ -3,7 +3,7 @@ title: about me
 draft: false
 ---
 
-Hi, I'm Kaori Hall. I am currently an undergrad double major in Microbiology and Cell Science and Art at UF. I plan on pursuing a Ph.D. in Mycology. In between my studies I enjoy creating art and working on personal creative projects (like this website).
+Hi, I'm Kaori Hall. I am currently an undergrad major in Microbiology and Cell Science at UF. I plan on pursuing a Ph.D. in Mycology. In between my studies I enjoy creating art and working on personal creative projects (like this website).
 
 ## What is "nuance"?
 
